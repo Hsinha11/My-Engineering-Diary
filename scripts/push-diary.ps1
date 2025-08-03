@@ -70,12 +70,26 @@ if (-not $Remote) {
 # Push to GitHub
 Write-Host "🚀 Pushing to GitHub..." -ForegroundColor Cyan
 try {
+    # Check if main branch exists, otherwise use master
+    $CurrentBranch = git branch --show-current
+    if (-not $CurrentBranch) {
+        # Create main branch if it doesn't exist
+        git checkout -b main
+    }
     git push origin main
     Write-Host "✅ Successfully pushed to GitHub!" -ForegroundColor Green
 } catch {
     Write-Host "❌ Failed to push to GitHub" -ForegroundColor Red
     Write-Host "Error: $($_.Exception.Message)" -ForegroundColor Red
-    exit 1
+    Write-Host "Trying with master branch..." -ForegroundColor Yellow
+    try {
+        git push origin master
+        Write-Host "✅ Successfully pushed to GitHub using master branch!" -ForegroundColor Green
+    } catch {
+        Write-Host "❌ Failed to push to GitHub" -ForegroundColor Red
+        Write-Host "Error: $($_.Exception.Message)" -ForegroundColor Red
+        exit 1
+    }
 }
 
 Write-Host "🎉 Diary entries successfully synced to GitHub!" -ForegroundColor Green 

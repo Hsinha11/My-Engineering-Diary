@@ -52,6 +52,16 @@ git add .
 Write-Host "Making initial commit..." -ForegroundColor Cyan
 git commit -m "Initial engineering diary setup"
 
+# Ensure we have a main branch
+Write-Host "Setting up main branch..." -ForegroundColor Cyan
+$CurrentBranch = git branch --show-current
+if (-not $CurrentBranch) {
+    git checkout -b main
+    Write-Host "Created main branch" -ForegroundColor Green
+} else {
+    Write-Host "Using branch: $CurrentBranch" -ForegroundColor Green
+}
+
 # Check if remote exists
 $Remote = git remote get-url origin 2>$null
 if (-not $Remote) {
