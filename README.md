@@ -9,7 +9,7 @@ engineering-diary/
 ├── README.md                 # This file
 ├── logs/                     # Daily logs
 │   ├── template.md          # Daily log template
-│   └── YYYY-MM-DD.md       # Daily entries
+│   └── DD-MM-YYYY.md       # Daily entries
 ├── reviews/                  # Weekly reviews
 │   ├── template.md          # Weekly review template
 │   └── week-XX.md          # Weekly review entries
@@ -24,7 +24,7 @@ engineering-diary/
 
 ## 🚀 Quick Start
 
-1. **Daily Logs**: Create a new file in `logs/` with format `YYYY-MM-DD.md`
+1. **Daily Logs**: Create a new file in `logs/` with format `DD-MM-YYYY.md`
 2. **Weekly Reviews**: Create a new file in `reviews/` with format `week-XX.md`
 3. **Project Plans**: Create a new file in `projects/` for each project
 

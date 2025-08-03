@@ -31,7 +31,7 @@ If you want to push your diary to GitHub:
 ### 1. Create Your First Daily Log
 ```powershell
 # Copy the template and create today's log (Windows PowerShell)
-Copy-Item "logs/template.md" "logs/$(Get-Date -Format 'yyyy-MM-dd').md"
+Copy-Item "logs/template.md" "logs/$(Get-Date -Format 'dd-MM-yyyy').md"
 ```
 
 ### 2. Start Writing
@@ -71,7 +71,7 @@ Copy-Item "reviews/template.md" "reviews/week-01.md"
 
 ## 📁 File Naming Convention
 
-- **Daily Logs**: `YYYY-MM-DD.md` (e.g., `2024-01-15.md`)
+- **Daily Logs**: `DD-MM-YYYY.md` (e.g., `15-01-2024.md`)
 - **Weekly Reviews**: `week-XX.md` (e.g., `week-01.md`)
 - **Projects**: `project-name.md` (e.g., `web-app-project.md`)
 
