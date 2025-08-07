@@ -29,17 +29,17 @@ if (-not $Status) {
 }
 
 # Show what files have changed
-Write-Host ">> Changes detected:" -ForegroundColor Cyan
+Write-Host " Changes detected:" -ForegroundColor Cyan
 git status --short
 
 # Add all markdown files
-Write-Host ">> Adding diary entries..." -ForegroundColor Cyan
+Write-Host " Adding diary entries..." -ForegroundColor Cyan
 git add logs/*.md
 git add reviews/*.md
 git add projects/*.md
 git add README.md
 git add QUICK_START.md
-
+git add scripts/*
 # Check if there are staged changes
 $StagedChanges = git diff --cached --name-only
 if (-not $StagedChanges) {
@@ -48,10 +48,10 @@ if (-not $StagedChanges) {
 }
 
 # Commit changes
-Write-Host ">> Committing changes..." -ForegroundColor Cyan
+Write-Host " Committing changes..." -ForegroundColor Cyan
 $CommitMessage = if ($Message -eq "Update engineering diary entries") {
     $Date = Get-Date -Format "yyyy-MM-dd"
-    ">> Update engineering diary - $Date"
+    "Update engineering diary - $Date"
 } else {
     $Message
 }
