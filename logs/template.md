@@ -55,7 +55,7 @@
 ## 💭 Reflection
 *How do you feel about today's progress? What could you do better?*
 
-*Your thoughts here...*
+> *Your thoughts here...*
 
 ---
 
