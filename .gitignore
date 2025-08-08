@@ -24,10 +24,8 @@ Thumbs.db
 # private/
 
 # Keep all markdown files and templates
-!*.md
+# !*.md
 
 # Git tracking for engineering diary
 # This ensures all your diary entries are tracked
-logs/*.md
-reviews/*.md
-projects/*.md 
+ 
