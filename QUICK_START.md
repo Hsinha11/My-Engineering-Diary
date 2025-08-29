@@ -29,12 +29,14 @@ If you want to push your diary to GitHub:
    ```
 
 ### 1. Create Your First Daily Log
+
 ```powershell
 # Copy the template and create today's log (Windows PowerShell)
 Copy-Item "logs/template.md" "logs/$(Get-Date -Format 'dd-MM-yyyy').md"
 ```
 
 ### 2. Start Writing
+
 Open your new daily log file and fill in:
 - What you worked on today
 - What you learned
