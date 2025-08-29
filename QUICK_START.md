@@ -17,16 +17,16 @@ If you want to push your diary to GitHub:
 
 1. **Create a GitHub repository** at https://github.com/new
 
-2. **Initialize and push to GitHub**:
+2. **Run the setup script**:
    ```powershell
-   .\diary.bat Initialize-DiaryRepo "https://github.com/yourusername/engineering-diary.git"
+   .\setup-github-simple.ps1 "https://github.com/yourusername/engineering-diary.git"
    ```
 
 ### 1. Create Your First Daily Log
 
+Just run:
 ```powershell
-# Create today's log (it will open automatically in VS Code)
-.\diary.bat New-DiaryEntry
+.\new-entry.bat
 ```
 
 Simple commands:
@@ -52,7 +52,7 @@ Examples of auto-generated commits:
    └── 📊 Week 01 review
 ```
 
-> 💡 You can still provide a custom message: `.\diary.bat Push-DiaryChanges "Your message"`
+> 💡 Just use `.\push.bat` to save your changes to GitHub
 
 ### 2. Start Writing
 
@@ -62,16 +62,15 @@ Open your new daily log file and fill in:
 - Any challenges you faced
 - Tomorrow's plan
 
-### 3. Create Your First Project
-```powershell
-# Create a new project (you'll be prompted for the project name)
-.\diary.bat New-DiaryEntry -Type project
-```
+### 3. Other Commands
 
-### 4. Weekly Review (End of Week)
+To create a project or weekly review:
 ```powershell
-# Create your weekly review (automatically uses correct week number)
-.\diary.bat New-DiaryEntry -Type review
+# New project
+.\new-project.bat
+
+# Weekly review
+.\new-review.bat
 ```
 
 ## 📝 Daily Routine (5-15 minutes)
@@ -83,7 +82,7 @@ Open your new daily log file and fill in:
 4. **New Project**: Create project plan: `.\new-project.bat`
 5. **Check Progress**: View your stats: `.\stats.bat`
 
-> 💡 **Pro Tip**: Use `.\diary.bat Update-DiaryStats` anytime to see your progress!
+> 💡 **Pro Tip**: Use `.\stats.bat` anytime to see your progress!
 
 ## 🎯 Pro Tips
 
