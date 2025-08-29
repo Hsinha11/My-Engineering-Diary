@@ -1,2 +1,2 @@
 @echo off
-powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\diary-helper.ps1" -Command "New-DiaryEntry"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\new-entry.ps1"
