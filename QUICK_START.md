@@ -15,25 +15,44 @@
 
 If you want to push your diary to GitHub:
 
-1. **Run the setup script**:
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File "scripts\setup-github-simple.ps1"
-   ```
+1. **Create a GitHub repository** at https://github.com/new
 
-2. **Create a GitHub repository** at https://github.com/new
-
-3. **Add the remote** (replace with your repo URL):
+2. **Initialize and push to GitHub**:
    ```powershell
-   git remote add origin https://github.com/yourusername/engineering-diary.git
-   git push -u origin main
+   .\diary.bat Initialize-DiaryRepo "https://github.com/yourusername/engineering-diary.git"
    ```
 
 ### 1. Create Your First Daily Log
 
 ```powershell
-# Copy the template and create today's log (Windows PowerShell)
-Copy-Item "logs/template.md" "logs/$(Get-Date -Format 'dd-MM-yyyy').md"
+# Create today's log (it will open automatically in VS Code)
+.\diary.bat New-DiaryEntry
 ```
+
+Simple commands:
+- � Create daily log: `.\new-entry.bat`
+- 📋 Create project: `.\new-project.bat`
+- 📊 Create review: `.\new-review.bat`
+- 📈 View statistics: `.\stats.bat`
+- 🔄 Push changes: `.\push.bat`
+
+The `Push-DiaryChanges` command is smart! It will:
+- 🤖 Automatically detect your changes
+- 📝 Generate meaningful commit messages
+- 🎨 Show beautiful previews
+- 🚀 Push to GitHub
+
+Examples of auto-generated commits:
+```
+📝 Daily log: 29 Aug 2025
+
+📚 Multiple updates:
+   └── 📝 Daily log: 29 Aug 2025
+   └── 🚀 New project: ai assistant
+   └── 📊 Week 01 review
+```
+
+> 💡 You can still provide a custom message: `.\diary.bat Push-DiaryChanges "Your message"`
 
 ### 2. Start Writing
 
@@ -45,31 +64,39 @@ Open your new daily log file and fill in:
 
 ### 3. Create Your First Project
 ```powershell
-# Copy the project template
-Copy-Item "projects/template.md" "projects/my-first-project.md"
+# Create a new project (you'll be prompted for the project name)
+.\diary.bat New-DiaryEntry -Type project
 ```
 
 ### 4. Weekly Review (End of Week)
 ```powershell
-# Create your first weekly review
-Copy-Item "reviews/template.md" "reviews/week-01.md"
+# Create your weekly review (automatically uses correct week number)
+.\diary.bat New-DiaryEntry -Type review
 ```
 
 ## 📝 Daily Routine (5-15 minutes)
 
-1. **End of Day**: Write your daily log
-2. **Push to GitHub**: Run `.\push-diary.bat` or double-click the file
-3. **End of Week**: Complete weekly review
-4. **New Project**: Create project plan
-5. **Project Complete**: Update with lessons learned
+1. **End of Day**: Write your daily log: `.\new-entry.bat`
+2. **Push to GitHub**: Run `.\push.bat`
+   > 🤖 Smart commits will be generated automatically!
+3. **End of Week**: Complete weekly review: `.\new-review.bat`
+4. **New Project**: Create project plan: `.\new-project.bat`
+5. **Check Progress**: View your stats: `.\stats.bat`
+
+> 💡 **Pro Tip**: Use `.\diary.bat Update-DiaryStats` anytime to see your progress!
 
 ## 🎯 Pro Tips
 
-- **Start Simple**: Don't feel pressured to fill every section
-- **Be Consistent**: Even 5 minutes of daily reflection is valuable
-- **Use Templates**: Copy templates for new entries
-- **Review Regularly**: Look back at past entries to see progress
-- **Customize**: Adjust templates to fit your style
+- 🌱 **Start Simple**: Don't feel pressured to fill every section
+- ⏰ **Be Consistent**: Even 5 minutes of daily reflection is valuable
+- 📝 **Smart Commits**: Let the diary auto-generate beautiful commit messages
+- 📊 **Track Progress**: Use `Update-DiaryStats` to monitor your journey
+- 🎨 **Rich Content**: Use Mermaid diagrams and progress bars in your entries
+- 🔄 **Review Regularly**: Look back at past entries to see progress
+- ⚡ **Quick Updates**: Use the command shortcuts for efficiency
+- 🎯 **Customize**: Adjust templates to fit your style
+
+> 💡 **Tip**: The daily log template includes beautiful Mermaid diagrams, progress bars, and collapsible sections!
 
 ## 📁 File Naming Convention
 

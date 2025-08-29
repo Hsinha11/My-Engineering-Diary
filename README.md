@@ -29,7 +29,7 @@ This repository contains my daily engineering reflections, showing what I learne
 - **[03-08-2025](logs/03-08-2025.md)** - Setting up this engineering diary system and learning about documentation best practices
 
 ### 📝 Formatting Help:
-- **[Markdown Cheat Sheet](MARKDOWN_CHEATSHEET.md)** - Quick reference for formatting your entries beautifully
+- **[Markdown Cheat Sheet](markdown_cheatsheet.md)** - Quick reference for formatting your entries beautifully
 
 ## 📝 How I Use This
 
