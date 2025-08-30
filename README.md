@@ -2,7 +2,7 @@
 
 <div align="center">
   
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=200&section=header&text=Engineering%20Diary&fontSize=80&animation=fadeIn&fontAlign=70&fontAlignY=35&desc=Learning%20and%20Growing%20Every%20Day&descAlign=70&descAlignY=55)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:2C8CF7,100:A22DA8&height=300&section=header&text=Engineering%20Diary&fontSize=70&fontColor=FFFFFF&animation=fadeIn&fontAlign=50&fontAlignY=25&desc=Learning%20and%20Growing%20Every%20Day&descSize=20&descAlign=50&descAlignY=45)
 
 <div align="center">
   <table>
@@ -99,7 +99,12 @@ This Engineering Diary is my personal space to:
 
 ## 📁 Repository Structure
 
-```
+<details>
+<summary>Click to see the full structure</summary>
+
+<div align="left">
+
+```shell
 my-engineering-diary/
 ├── README.md                 # This file
 ├── logs/                     # My daily logs
@@ -115,6 +120,9 @@ my-engineering-diary/
     ├── push-diary.ps1       # Auto-push to GitHub
     └── setup-github.ps1     # GitHub setup
 ```
+
+</div>
+</details>
 
 ## � Quick Commands
 
