@@ -2,39 +2,39 @@
 
 <div align="center">
   
-![Banner](https://capsule-render.v## ⚡ Quick Commands
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=200&section=header&text=Engineering%20Diary&fontSize=80&animation=fadeIn&fontAlign=70&fontAlignY=35&desc=Learning%20and%20Growing%20Every%20Day&descAlign=70&descAlignY=55)
 
 <div align="center">
   <table>
     <tr>
       <td align="center">
-        <img width="40" src="https://img.icons8.com/color/96/000000/create-new.png"/>
+        <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg"/>
         <br /><code>.\new-entry.bat</code>
         <br /><sub>Create Today's Log</sub>
       </td>
       <td align="center">
-        <img width="40" src="https://img.icons8.com/color/96/000000/project.png"/>
+        <img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
         <br /><code>.\new-project.bat</code>
         <br /><sub>Track New Project</sub>
       </td>
       <td align="center">
-        <img width="40" src="https://img.icons8.com/color/96/000000/overview-pages-3.png"/>
+        <img width="40" src="https://cdn.jsdelivr.net/gh/primer/octicons/icons/checklist-16.svg"/>
         <br /><code>.\new-review.bat</code>
         <br /><sub>Weekly Review</sub>
       </td>
       <td align="center">
-        <img width="40" src="https://img.icons8.com/color/96/000000/statistics.png"/>
+        <img width="40" src="https://cdn.jsdelivr.net/gh/primer/octicons/icons/graph-16.svg"/>
         <br /><code>.\stats.bat</code>
         <br /><sub>View Progress</sub>
       </td>
       <td align="center">
-        <img width="40" src="https://img.icons8.com/color/96/000000/cloud-sync.png"/>
+        <img width="40" src="https://cdn.jsdelivr.net/gh/primer/octicons/icons/repo-push-16.svg"/>
         <br /><code>.\push.bat</code>
         <br /><sub>Save to GitHub</sub>
       </td>
     </tr>
   </table>
-</div>/api?type=waving&color=gradient&height=200&section=header&text=Engineering%20Diary&fontSize=80&animation=fadeIn)
+</div>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2C8CF7&center=true&vCenter=true&width=435&lines=Daily+Engineering+Reflections;Building+Knowledge+Day+by+Day;Learning%2C+Growing%2C+Documenting" alt="Typing SVG" />
@@ -53,7 +53,7 @@
 
 📔 **My Engineering Journey Tracker**
 
-[![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hsinha11&theme=react-dark&hide_border=true)](https://github.com/Hsinha11/My-Engineering-Diary)ineering Diary
+[![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hsinha11&theme=react-dark&hide_border=true)](https://github.com/Hsinha11/My-Engineering-Diary)
 
 > A personal journey through engineering excellence, one day at a time.
 
@@ -78,19 +78,19 @@ This Engineering Diary is my personal space to:
   <table>
     <tr>
       <td align="center">
-        <img width="50" src="https://img.icons8.com/color/96/000000/document-writing.png"/>
+        <img width="50" src="https://cdn.jsdelivr.net/gh/primer/octicons/icons/book-16.svg"/>
         <br />Document Daily Learning
       </td>
       <td align="center">
-        <img width="50" src="https://img.icons8.com/color/96/000000/goal.png"/>
+        <img width="50" src="https://cdn.jsdelivr.net/gh/primer/octicons/icons/goal-16.svg"/>
         <br />Track Projects
       </td>
       <td align="center">
-        <img width="50" src="https://img.icons8.com/color/96/000000/statistics.png"/>
+        <img width="50" src="https://cdn.jsdelivr.net/gh/primer/octicons/icons/graph-16.svg"/>
         <br />Review Progress
       </td>
       <td align="center">
-        <img width="50" src="https://img.icons8.com/color/96/000000/rocket.png"/>
+        <img width="50" src="https://cdn.jsdelivr.net/gh/primer/octicons/icons/rocket-16.svg"/>
         <br />Monitor Growth
       </td>
     </tr>
