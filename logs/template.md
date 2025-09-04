@@ -6,7 +6,7 @@
 ⭐️ Another day of building amazing things ⭐️
 ```
 
-Day Progress: ![Progress](https://img.shields.io/badge/progress-60%25-brightgreen)
+Day Progress: ![](https://geps.dev/progress/60?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 </div>
 
@@ -105,8 +105,8 @@ mindmap
 |:--|:--|
 | 🎯 Focus Areas | `development` `learning` `review` |
 | ⏰ Time Logged | 0.0 hrs |
-| 🔥 Energy Level | ![Energy](https://img.shields.io/badge/energy-80%25-orange) |
-| 🎭 Mood | ![Mood](https://img.shields.io/badge/mood-70%25-green) |
+| 🔥 Energy Level | ![](https://geps.dev/progress/80?dangerColor=800000&warningColor=ff9900&successColor=006600) |
+| 🎭 Mood | ![](https://geps.dev/progress/70?dangerColor=800000&warningColor=ff9900&successColor=006600) |
 
 </details>
 
@@ -129,8 +129,8 @@ mindmap
 
 | Technology | Learning | Confidence |
 |:--|:--|:--|
-| Tech 1 | Key insight learned | ![Confidence](https://img.shields.io/badge/confidence-85%25-blue) |
-| Tech 2 | Key insight learned | ![Confidence](https://img.shields.io/badge/confidence-70%25-yellow) |
+| Tech 1 | Key insight learned | ![](https://markdone.org/progress/85.png) |
+| Tech 2 | Key insight learned | ![](https://markdone.org/progress/70.png) |
 
 ### 🌟 Best Practices
 
