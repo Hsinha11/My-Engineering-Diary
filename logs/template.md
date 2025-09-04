@@ -6,7 +6,7 @@
 ⭐️ Another day of building amazing things ⭐️
 ```
 
-![Progress](https://progress-bar.dev/0/?title=Day%20Progress&width=500)
+Day Progress: ![Progress](https://img.shields.io/badge/progress-60%25-brightgreen)
 
 </div>
 
@@ -105,8 +105,8 @@ mindmap
 |:--|:--|
 | 🎯 Focus Areas | `development` `learning` `review` |
 | ⏰ Time Logged | 0.0 hrs |
-| 🔥 Energy Level | ![Energy](https://progress-bar.dev/80/?title=&color=ff9900&width=100) |
-| 🎭 Mood | ![Mood](https://progress-bar.dev/75/?title=&color=44CC11&width=100) |
+| 🔥 Energy Level | ![Energy](https://img.shields.io/badge/energy-80%25-orange) |
+| 🎭 Mood | ![Mood](https://img.shields.io/badge/mood-70%25-green) |
 
 </details>
 
@@ -129,8 +129,8 @@ mindmap
 
 | Technology | Learning | Confidence |
 |:--|:--|:--|
-| Tech 1 | Key insight learned | ![Confidence](https://progress-bar.dev/85/?title=&width=60) |
-| Tech 2 | Key insight learned | ![Confidence](https://progress-bar.dev/70/?title=&width=60) |
+| Tech 1 | Key insight learned | ![Confidence](https://img.shields.io/badge/confidence-85%25-blue) |
+| Tech 2 | Key insight learned | ![Confidence](https://img.shields.io/badge/confidence-70%25-yellow) |
 
 ### 🌟 Best Practices
 
