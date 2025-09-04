@@ -1,4 +1,4 @@
-# � Engineering Log | DD-MM-YYYY
+# 📝 Engineering Log | DD-MM-YYYY
 
 <div align="center">
 
@@ -6,10 +6,14 @@
 ⭐️ Another day of building amazing things ⭐️
 ```
 
-![P## 🎯 Tomorrow's Plan
+![Progress](https://progress-bar.dev/0/?title=Day%20Progress&width=500)
+
+</div>
+
+## 🎯 Today's Goals
 
 <details>
-<summary>Next Day Preparation</summary>
+<summary>Daily Planning</summary>
 
 ### 📋 Priority Tasks
 
@@ -71,9 +75,7 @@ Keep building amazing things! 🚀
 
 </div>
 
-#engineering #daily-log #productivityress](https://progress-bar.dev/0/?title=Day%20Progress&width=500)
-
-</div>
+#engineering #daily-log #productivity
 
 ---
 
