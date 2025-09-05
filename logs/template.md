@@ -8,7 +8,18 @@
 
 <p align="center">
   Day Progress:<br/>
-  <img src="https://geps.dev/progress/60?dangerColor=800000&warningColor=ff9900&successColor=006600&width=400" alt="Progress"/>
+  <svg xmlns="http://www.w3.org/2000/svg" width="500" height="40">
+    <linearGradient id="a" x2="0" y2="100%">
+      <stop offset="0" stop-color="#bbb" stop-opacity=".2"/>
+      <stop offset="1" stop-opacity=".1"/>
+    </linearGradient>
+    <rect rx="4" x="0" width="500" height="40" fill="#555"/>
+    <rect rx="4" x="0" width="300" height="40" fill="#44CC11"/>
+    <rect rx="4" width="500" height="40" fill="url(#a)"/>
+    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="22">
+      <text x="250" y="28">60%</text>
+    </g>
+  </svg>
 </p>
 
 </div>
@@ -108,8 +119,8 @@ mindmap
 |:--|:--|
 | 🎯 Focus Areas | `development` `learning` `review` |
 | ⏰ Time Logged | 0.0 hrs |
-| 🔥 Energy Level | <img src="https://geps.dev/progress/80?dangerColor=800000&warningColor=ff9900&successColor=006600&width=200" alt="Energy"/> |
-| 🎭 Mood | <img src="https://geps.dev/progress/70?dangerColor=800000&warningColor=ff9900&successColor=006600&width=200" alt="Mood"/> |
+| 🔥 Energy Level | <svg xmlns="http://www.w3.org/2000/svg" width="300" height="30"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".2"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="4" x="0" width="300" height="30" fill="#555"/><rect rx="4" x="0" width="240" height="30" fill="#ff9900"/><rect rx="4" width="300" height="30" fill="url(#b)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="18"><text x="150" y="21">80%</text></g></svg> |
+| 🎭 Mood | <svg xmlns="http://www.w3.org/2000/svg" width="300" height="30"><linearGradient id="c" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".2"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="4" x="0" width="300" height="30" fill="#555"/><rect rx="4" x="0" width="210" height="30" fill="#44CC11"/><rect rx="4" width="300" height="30" fill="url(#c)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="18"><text x="150" y="21">70%</text></g></svg> |
 
 </details>
 
@@ -132,8 +143,8 @@ mindmap
 
 | Technology | Learning | Confidence |
 |:--|:--|:--|
-| Tech 1 | Key insight learned | <img src="https://geps.dev/progress/85?dangerColor=800000&warningColor=ff9900&successColor=006600&width=150" alt="Confidence" align="center"/> |
-| Tech 2 | Key insight learned | <img src="https://geps.dev/progress/70?dangerColor=800000&warningColor=ff9900&successColor=006600&width=150" alt="Confidence" align="center"/> |
+| Tech 1 | Key insight learned | <svg xmlns="http://www.w3.org/2000/svg" width="200" height="25"><linearGradient id="d" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".2"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="4" x="0" width="200" height="25" fill="#555"/><rect rx="4" x="0" width="170" height="25" fill="#007ec6"/><rect rx="4" width="200" height="25" fill="url(#d)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="16"><text x="100" y="18">85%</text></g></svg> |
+| Tech 2 | Key insight learned | <svg xmlns="http://www.w3.org/2000/svg" width="200" height="25"><linearGradient id="e" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".2"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="4" x="0" width="200" height="25" fill="#555"/><rect rx="4" x="0" width="140" height="25" fill="#007ec6"/><rect rx="4" width="200" height="25" fill="url(#e)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="16"><text x="100" y="18">70%</text></g></svg> |
 
 ### 🌟 Best Practices
 
