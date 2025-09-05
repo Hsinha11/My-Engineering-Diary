@@ -8,17 +8,10 @@
 
 <p align="center">
   Day Progress:<br/>
-  <svg xmlns="http://www.w3.org/2000/svg" width="500" height="40">
-    <linearGradient id="a" x2="0" y2="100%">
-      <stop offset="0" stop-color="#bbb" stop-opacity=".2"/>
-      <stop offset="1" stop-opacity=".1"/>
-    </linearGradient>
-    <rect rx="4" x="0" width="500" height="40" fill="#555"/>
-    <rect rx="4" x="0" width="300" height="40" fill="#44CC11"/>
-    <rect rx="4" width="500" height="40" fill="url(#a)"/>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="22">
-      <text x="250" y="28">60%</text>
-    </g>
+  <svg width="200" height="200" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)">
+    <circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle>
+    <circle r="90" cx="100" cy="100" stroke="#2C8CF7" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="226.192" fill="transparent" stroke-dasharray="565.48"></circle>
+    <text x="71" y="115" fill="#2C8CF7" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">60%</text>
   </svg>
 </p>
 
@@ -119,8 +112,8 @@ mindmap
 |:--|:--|
 | 🎯 Focus Areas | `development` `learning` `review` |
 | ⏰ Time Logged | 0.0 hrs |
-| 🔥 Energy Level | <svg xmlns="http://www.w3.org/2000/svg" width="300" height="30"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".2"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="4" x="0" width="300" height="30" fill="#555"/><rect rx="4" x="0" width="240" height="30" fill="#ff9900"/><rect rx="4" width="300" height="30" fill="url(#b)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="18"><text x="150" y="21">80%</text></g></svg> |
-| 🎭 Mood | <svg xmlns="http://www.w3.org/2000/svg" width="300" height="30"><linearGradient id="c" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".2"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="4" x="0" width="300" height="30" fill="#555"/><rect rx="4" x="0" width="210" height="30" fill="#44CC11"/><rect rx="4" width="300" height="30" fill="url(#c)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="18"><text x="150" y="21">70%</text></g></svg> |
+| 🔥 Energy Level | <svg width="120" height="120" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)"><circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle><circle r="90" cx="100" cy="100" stroke="#ff9900" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="113.096" fill="transparent" stroke-dasharray="565.48"></circle><text x="71" y="115" fill="#ff9900" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">80%</text></svg> |
+| 🎭 Mood | <svg width="120" height="120" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)"><circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle><circle r="90" cx="100" cy="100" stroke="#44CC11" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="169.644" fill="transparent" stroke-dasharray="565.48"></circle><text x="71" y="115" fill="#44CC11" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">70%</text></svg> |
 
 </details>
 
@@ -143,8 +136,8 @@ mindmap
 
 | Technology | Learning | Confidence |
 |:--|:--|:--|
-| Tech 1 | Key insight learned | <svg xmlns="http://www.w3.org/2000/svg" width="200" height="25"><linearGradient id="d" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".2"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="4" x="0" width="200" height="25" fill="#555"/><rect rx="4" x="0" width="170" height="25" fill="#007ec6"/><rect rx="4" width="200" height="25" fill="url(#d)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="16"><text x="100" y="18">85%</text></g></svg> |
-| Tech 2 | Key insight learned | <svg xmlns="http://www.w3.org/2000/svg" width="200" height="25"><linearGradient id="e" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".2"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="4" x="0" width="200" height="25" fill="#555"/><rect rx="4" x="0" width="140" height="25" fill="#007ec6"/><rect rx="4" width="200" height="25" fill="url(#e)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="16"><text x="100" y="18">70%</text></g></svg> |
+| Tech 1 | Key insight learned | <svg width="100" height="100" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)"><circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle><circle r="90" cx="100" cy="100" stroke="#007ec6" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="84.822" fill="transparent" stroke-dasharray="565.48"></circle><text x="71" y="115" fill="#007ec6" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">85%</text></svg> |
+| Tech 2 | Key insight learned | <svg width="100" height="100" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)"><circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle><circle r="90" cx="100" cy="100" stroke="#007ec6" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="169.644" fill="transparent" stroke-dasharray="565.48"></circle><text x="71" y="115" fill="#007ec6" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">70%</text></svg> |
 
 ### 🌟 Best Practices
 
