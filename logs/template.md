@@ -9,7 +9,7 @@
 <p align="center">
   Day Progress:<br/>
   💖💖💖💖💖💖🖤🖤🖤🖤 60%<br/>
-  🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️ 60%
+  
 </p>
 
 </div>
@@ -120,9 +120,9 @@ mindmap
 
 #### List the specific tasks, features, or problems you solved today
 
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
+- [ ] **Task 1**
+- [ ] **Task 2**
+- [ ] **Task 3**
 
 ## 💡 Learning & Insights
 
