@@ -8,9 +8,8 @@
 
 <p align="center">
   Day Progress:<br/>
-
-  ![Day Progress 60%](https://via.placeholder.com/200x200.png?text=60%25+Progress)  <img src="https://progress-bar.dev/60/" alt="60% Progress"/>
-
+  💖💖💖💖💖💖🖤🖤🖤🖤 60%<br/>
+  🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️ 60%
 </p>
 
 </div>
@@ -110,8 +109,8 @@ mindmap
 |:--|:--|
 | 🎯 Focus Areas | `development` `learning` `review` |
 | ⏰ Time Logged | 0.0 hrs |
-| 🔥 Energy Level | <svg width="120" height="120" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)"><circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle><circle r="90" cx="100" cy="100" stroke="#ff9900" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="113.096" fill="transparent" stroke-dasharray="565.48"></circle><text x="71" y="115" fill="#ff9900" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">80%</text></svg> |
-| 🎭 Mood | <svg width="120" height="120" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)"><circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle><circle r="90" cx="100" cy="100" stroke="#44CC11" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="169.644" fill="transparent" stroke-dasharray="565.48"></circle><text x="71" y="115" fill="#44CC11" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">70%</text></svg> |
+| 🔥 Energy Level | ▰▰▰▰▰▰▰▰▱▱ 80% |
+| 🎭 Mood | ▰▰▰▰▰▰▰▱▱▱ 70% |
 
 </details>
 
@@ -134,8 +133,8 @@ mindmap
 
 | Technology | Learning | Confidence |
 |:--|:--|:--|
-| Tech 1 | Key insight learned | <svg width="100" height="100" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)"><circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle><circle r="90" cx="100" cy="100" stroke="#007ec6" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="84.822" fill="transparent" stroke-dasharray="565.48"></circle><text x="71" y="115" fill="#007ec6" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">85%</text></svg> |
-| Tech 2 | Key insight learned | <svg width="100" height="100" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)"><circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle><circle r="90" cx="100" cy="100" stroke="#007ec6" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="169.644" fill="transparent" stroke-dasharray="565.48"></circle><text x="71" y="115" fill="#007ec6" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">70%</text></svg> |
+| Tech 1 | Key insight learned | 🔹🔹🔹🔹🔹🔹🔹🔹🔸🔸 85% |
+| Tech 2 | Key insight learned | 💛💛💛💛💛💛💛💚💚💚 70% |
 
 ### 🌟 Best Practices
 
