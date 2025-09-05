@@ -8,7 +8,7 @@
 
 <p align="center">
   Day Progress:<br/>
-  <img src="https://geps.dev/progress/60?dangerColor=800000&warningColor=ff9900&successColor=006600" alt="Progress"/>
+  <img src="https://geps.dev/progress/60?dangerColor=800000&warningColor=ff9900&successColor=006600&width=400" alt="Progress"/>
 </p>
 
 </div>
@@ -108,8 +108,8 @@ mindmap
 |:--|:--|
 | 🎯 Focus Areas | `development` `learning` `review` |
 | ⏰ Time Logged | 0.0 hrs |
-| 🔥 Energy Level | <img src="https://geps.dev/progress/80?dangerColor=800000&warningColor=ff9900&successColor=006600" alt="Energy"/> |
-| 🎭 Mood | <img src="https://geps.dev/progress/70?dangerColor=800000&warningColor=ff9900&successColor=006600" alt="Mood"/> |
+| 🔥 Energy Level | <img src="https://geps.dev/progress/80?dangerColor=800000&warningColor=ff9900&successColor=006600&width=200" alt="Energy"/> |
+| 🎭 Mood | <img src="https://geps.dev/progress/70?dangerColor=800000&warningColor=ff9900&successColor=006600&width=200" alt="Mood"/> |
 
 </details>
 
@@ -132,8 +132,8 @@ mindmap
 
 | Technology | Learning | Confidence |
 |:--|:--|:--|
-| Tech 1 | Key insight learned | <img src="https://markdone.org/progress/85.png" alt="Confidence" align="center"/> |
-| Tech 2 | Key insight learned | <img src="https://markdone.org/progress/70.png" alt="Confidence" align="center"/> |
+| Tech 1 | Key insight learned | <img src="https://geps.dev/progress/85?dangerColor=800000&warningColor=ff9900&successColor=006600&width=150" alt="Confidence" align="center"/> |
+| Tech 2 | Key insight learned | <img src="https://geps.dev/progress/70?dangerColor=800000&warningColor=ff9900&successColor=006600&width=150" alt="Confidence" align="center"/> |
 
 ### 🌟 Best Practices
 
