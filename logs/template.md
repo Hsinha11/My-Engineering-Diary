@@ -9,7 +9,8 @@
 <p align="center">
   Day Progress:<br/>
 
-  ![Day Progress 60%](https://via.placeholder.com/200x200.png?text=60%25+Progress)
+  ![Day Progress 60%](https://via.placeholder.com/200x200.png?text=60%25+Progress)  <img src="https://progress-bar.dev/60/" alt="60% Progress"/>
+
 </p>
 
 </div>
