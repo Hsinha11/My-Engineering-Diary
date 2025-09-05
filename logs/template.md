@@ -8,11 +8,8 @@
 
 <p align="center">
   Day Progress:<br/>
-  <svg width="200" height="200" viewBox="-25 -25 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)">
-    <circle r="90" cx="100" cy="100" fill="transparent" stroke="#e0e0e0" stroke-width="16px"></circle>
-    <circle r="90" cx="100" cy="100" stroke="#2C8CF7" stroke-width="16px" stroke-linecap="round" stroke-dashoffset="226.192" fill="transparent" stroke-dasharray="565.48"></circle>
-    <text x="71" y="115" fill="#2C8CF7" font-size="52px" font-weight="bold" style="transform:rotate(90deg) translate(0, -196px)">60%</text>
-  </svg>
+
+  ![Day Progress 60%](https://via.placeholder.com/200x200.png?text=60%25+Progress)
 </p>
 
 </div>
